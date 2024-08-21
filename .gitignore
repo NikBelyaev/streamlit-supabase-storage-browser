@@ -68,7 +68,5 @@ package-lock.json
 .vscode/
 
 
-streamlit-file-browser-*
-
-example_artifacts/static_file_server/var
-example_artifacts/static_file_server/root
+streamlit-supabase-storage-browser-*
+test_env/

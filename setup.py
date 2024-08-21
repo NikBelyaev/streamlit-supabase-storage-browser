@@ -1,8 +1,8 @@
 import setuptools
 
 setuptools.setup(
-    name="streamlit-file-browser",
-    version="3.2.22",
+    name="streamlit-supabase-storage-browser",
+    version="1.0.0",
     author="",
     author_email="",
     description="",
@@ -16,13 +16,12 @@ setuptools.setup(
     install_requires=[
         "pandas",
         "filetype",
-        "binaryornot",
-        "wcmatch",
         "streamlit-ace",
         "streamlit-molstar >= 0.4.6",
         "streamlit-antd",
         "streamlit-embeded",
         "streamlit >= 0.63",
         "pymatgen",
+        "supabase",
     ],
 )
